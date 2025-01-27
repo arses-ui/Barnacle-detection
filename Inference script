@@ -1,0 +1,3 @@
+#Command to carry out inference
+#inference script provided in YOLOv5 repository that has been cloned from this project. A sample of how I used detect.py in my project
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source path/to/my/image.jpg
