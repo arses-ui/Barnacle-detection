@@ -1,0 +1,5 @@
+train: path/to/your/dataset/train  # Path to training images
+val: path/to/your/dataset/valid     # Path to validation images
+
+nc: 1  # Number of classes (1 for barnacles)
+names: ['barnacles']  # Class names
