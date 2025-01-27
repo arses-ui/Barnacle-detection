@@ -1,0 +1,8 @@
+Files necessary for this project that utillizes YOLOv5:
+1. torch>=1.7.0
+2. torchvision>=0.8.0
+3. numpy
+4. opencv-python
+5. matplotlib
+6. PyQt5
+7. lxml
