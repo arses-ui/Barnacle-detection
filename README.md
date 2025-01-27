@@ -7,10 +7,11 @@ This project implements an object detection model using YOLOv5 to identify and c
    git clone https://github.com/your-username/barnacle-detection.git
    cd barnacle-detectio
 2. Set up a virtual environment:
+   ```bash
     python -m venv venv
     source venv/bin/activate  # On macOS/Linux
     venv\Scripts\activate  # On Windows
-3. Install required packages
+4. Install required packages
     pip install -r requirements.txt
 
 ## Usage Instructions 
