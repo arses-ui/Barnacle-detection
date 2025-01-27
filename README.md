@@ -20,10 +20,14 @@ This project implements an object detection model using YOLOv5 to identify and c
 2. Adjust the configuration file:
      Edit barnacles.yaml to point to the correct folders.
 3. Train the model:
-      python train.py --img 640 --batch 16 --epochs 50 --data barnacles.yaml --weights yolov5s.pt --cache
-4. Validate the model:
+      python train.py
+   ```bash
+    --img 640 --batch 16 --epochs 50 --data barnacles.yaml --weights yolov5s.pt --cache
+5. Validate the model:
+      ```bash
       python val.py --weights runs/train/exp/weights/best.pt --data barnacles.yaml --img 640
-5. Perform inference:
+6. Perform inference:
+      ```bash
       python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source path/to/test/images (whatever the location is on your PC)
    ## Project Progress
 1. Initial Setup and Dataset Creation : Collected images of barnacles and annotated them for training.Used images from the internet and ones 
